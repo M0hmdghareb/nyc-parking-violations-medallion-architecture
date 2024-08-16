@@ -21,9 +21,10 @@ This project applies the Medallion Architecture to NYC Parking Violations Data, 
 - **Violation Ticket Metrics**: Materialized table containing key metrics related to violation tickets.
 - **Violation Vehicle Metrics**: Materialized table containing key metrics related to vehicles involved in violations.
 
-## Learning and Skills Development
+![The Medallion Diagram in DBT](./assets/Digrame.png)
 
-![The Medallion Diagram in DBT](./assets/Digram.png)
+
+## Learning and Skills Development
 
 This project is the culmination of skills and techniques learned from two LinkedIn Learning courses:
 
