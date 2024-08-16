@@ -1,0 +1,124 @@
+Collecting dbt-core==1.6.1
+  Obtaining dependency information for dbt-core==1.6.1 from https://files.pythonhosted.org/packages/eb/27/15b1875fa2d2afc15f9196161b401bb84886965d8951acab7fe50fada981/dbt_core-1.6.1-py3-none-any.whl.metadata
+  Downloading dbt_core-1.6.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting dbt-duckdb==1.6.0
+  Obtaining dependency information for dbt-duckdb==1.6.0 from https://files.pythonhosted.org/packages/db/f2/836e3228ec46e6884e52c4b928382a1e0f7db08546fc9cea82bc7a530814/dbt_duckdb-1.6.0-py3-none-any.whl.metadata
+  Downloading dbt_duckdb-1.6.0-py3-none-any.whl.metadata (21 kB)
+Collecting duckdb==0.9.0
+  Obtaining dependency information for duckdb==0.9.0 from https://files.pythonhosted.org/packages/8a/c7/99ccb03b04e4b018601726ca89aed6e874648376bf370903da730dd6c0bb/duckdb-0.9.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading duckdb-0.9.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (760 bytes)
+Requirement already satisfied: requests in /home/strang/anaconda3/lib/python3.11/site-packages (2.31.0)
+Collecting agate~=1.7.0 (from dbt-core==1.6.1)
+  Obtaining dependency information for agate~=1.7.0 from https://files.pythonhosted.org/packages/20/6e/bbebad0213fce2081902cf7565322b42a5a991c550857cfbb4741f69b8f6/agate-1.7.1-py2.py3-none-any.whl.metadata
+  Downloading agate-1.7.1-py2.py3-none-any.whl.metadata (3.1 kB)
+Requirement already satisfied: Jinja2~=3.1.2 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-core==1.6.1) (3.1.2)
+Collecting mashumaro[msgpack]~=3.8.1 (from dbt-core==1.6.1)
+  Obtaining dependency information for mashumaro[msgpack]~=3.8.1 from https://files.pythonhosted.org/packages/79/dc/0f834689a7b3fbf8af81b4860b5a54cd159d3ce46bb4dc2ec7279cc6230c/mashumaro-3.8.1-py3-none-any.whl.metadata
+  Downloading mashumaro-3.8.1-py3-none-any.whl.metadata (97 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.9/97.9 kB 934.7 kB/s eta 0:00:00
+Collecting logbook<1.6,>=1.5 (from dbt-core==1.6.1)
+  Downloading Logbook-1.5.3.tar.gz (85 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.8/85.8 kB 153.5 kB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: click<9 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-core==1.6.1) (8.0.4)
+Requirement already satisfied: networkx<4,>=2.3 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-core==1.6.1) (3.1)
+Requirement already satisfied: colorama<0.5,>=0.3.9 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-core==1.6.1) (0.4.6)
+Requirement already satisfied: pathspec<0.12,>=0.9 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-core==1.6.1) (0.10.3)
+Collecting isodate<0.7,>=0.6 (from dbt-core==1.6.1)
+  Obtaining dependency information for isodate<0.7,>=0.6 from https://files.pythonhosted.org/packages/b6/85/7882d311924cbcfc70b1890780763e36ff0b140c7e51c110fc59a532f087/isodate-0.6.1-py2.py3-none-any.whl.metadata
+  Downloading isodate-0.6.1-py2.py3-none-any.whl.metadata (9.6 kB)
+Collecting sqlparse<0.5,>=0.2.3 (from dbt-core==1.6.1)
+  Obtaining dependency information for sqlparse<0.5,>=0.2.3 from https://files.pythonhosted.org/packages/98/5a/66d7c9305baa9f11857f247d4ba761402cea75db6058ff850ed7128957b7/sqlparse-0.4.4-py3-none-any.whl.metadata
+  Downloading sqlparse-0.4.4-py3-none-any.whl.metadata (4.0 kB)
+Collecting dbt-extractor~=0.4.1 (from dbt-core==1.6.1)
+  Obtaining dependency information for dbt-extractor~=0.4.1 from https://files.pythonhosted.org/packages/a4/d2/8b8ab86a5d40ed4d8489eaca062fc15e1902822051daa9b411e05f809374/dbt_extractor-0.4.1-cp36-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.whl.metadata
+  Downloading dbt_extractor-0.4.1-cp36-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.whl.metadata (4.2 kB)
+Collecting hologram~=0.0.16 (from dbt-core==1.6.1)
+  Obtaining dependency information for hologram~=0.0.16 from https://files.pythonhosted.org/packages/fe/1a/10c3937e47cc3d86a4deec51770ef5c454b732893e58655056d755ef921d/hologram-0.0.16-py3-none-any.whl.metadata
+  Downloading hologram-0.0.16-py3-none-any.whl.metadata (1.3 kB)
+Collecting minimal-snowplow-tracker~=0.0.2 (from dbt-core==1.6.1)
+  Downloading minimal-snowplow-tracker-0.0.2.tar.gz (12 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting dbt-semantic-interfaces~=0.2.0 (from dbt-core==1.6.1)
+  Obtaining dependency information for dbt-semantic-interfaces~=0.2.0 from https://files.pythonhosted.org/packages/3c/ac/e379515f3bed19734f1426591ee71a2402cb651594ba87c42224ed86cdfe/dbt_semantic_interfaces-0.2.3-py3-none-any.whl.metadata
+  Downloading dbt_semantic_interfaces-0.2.3-py3-none-any.whl.metadata (2.5 kB)
+Requirement already satisfied: packaging>20.9 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-core==1.6.1) (23.0)
+Collecting protobuf>=4.0.0 (from dbt-core==1.6.1)
+  Obtaining dependency information for protobuf>=4.0.0 from https://files.pythonhosted.org/packages/4c/98/db690e43e2f28495c8fc7c997003cbd59a6db342914b404e216c9b6791f0/protobuf-5.27.3-cp38-abi3-manylinux2014_x86_64.whl.metadata
+  Downloading protobuf-5.27.3-cp38-abi3-manylinux2014_x86_64.whl.metadata (592 bytes)
+Requirement already satisfied: pytz>=2015.7 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-core==1.6.1) (2022.7)
+Requirement already satisfied: pyyaml>=6.0 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-core==1.6.1) (6.0)
+Requirement already satisfied: typing-extensions>=3.7.4 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-core==1.6.1) (4.7.1)
+Requirement already satisfied: cffi<2.0.0,>=1.9 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-core==1.6.1) (1.15.1)
+Requirement already satisfied: idna<4,>=2.5 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-core==1.6.1) (3.4)
+Requirement already satisfied: urllib3~=1.0 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-core==1.6.1) (1.26.16)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/strang/anaconda3/lib/python3.11/site-packages (from requests) (2.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /home/strang/anaconda3/lib/python3.11/site-packages (from requests) (2023.7.22)
+Requirement already satisfied: Babel>=2.0 in /home/strang/anaconda3/lib/python3.11/site-packages (from agate~=1.7.0->dbt-core==1.6.1) (2.11.0)
+Collecting leather>=0.3.2 (from agate~=1.7.0->dbt-core==1.6.1)
+  Obtaining dependency information for leather>=0.3.2 from https://files.pythonhosted.org/packages/a1/30/9ec597c962c5249ebd5c580386e4b5f2884cd943af42634291ee3b406415/leather-0.4.0-py2.py3-none-any.whl.metadata
+  Downloading leather-0.4.0-py2.py3-none-any.whl.metadata (2.8 kB)
+Collecting parsedatetime!=2.5,>=2.1 (from agate~=1.7.0->dbt-core==1.6.1)
+  Obtaining dependency information for parsedatetime!=2.5,>=2.1 from https://files.pythonhosted.org/packages/9d/a4/3dd804926a42537bf69fb3ebb9fd72a50ba84f807d95df5ae016606c976c/parsedatetime-2.6-py3-none-any.whl.metadata
+  Downloading parsedatetime-2.6-py3-none-any.whl.metadata (4.7 kB)
+Requirement already satisfied: python-slugify>=1.2.1 in /home/strang/anaconda3/lib/python3.11/site-packages (from agate~=1.7.0->dbt-core==1.6.1) (5.0.2)
+Collecting pytimeparse>=1.1.5 (from agate~=1.7.0->dbt-core==1.6.1)
+  Obtaining dependency information for pytimeparse>=1.1.5 from https://files.pythonhosted.org/packages/1b/b4/afd75551a3b910abd1d922dbd45e49e5deeb4d47dc50209ce489ba9844dd/pytimeparse-1.1.8-py2.py3-none-any.whl.metadata
+  Downloading pytimeparse-1.1.8-py2.py3-none-any.whl.metadata (3.4 kB)
+Requirement already satisfied: pycparser in /home/strang/anaconda3/lib/python3.11/site-packages (from cffi<2.0.0,>=1.9->dbt-core==1.6.1) (2.21)
+Requirement already satisfied: importlib-metadata~=6.0 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-semantic-interfaces~=0.2.0->dbt-core==1.6.1) (6.0.0)
+Requirement already satisfied: jsonschema~=4.0 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-semantic-interfaces~=0.2.0->dbt-core==1.6.1) (4.17.3)
+Requirement already satisfied: more-itertools~=8.0 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-semantic-interfaces~=0.2.0->dbt-core==1.6.1) (8.12.0)
+Collecting pydantic~=1.10 (from dbt-semantic-interfaces~=0.2.0->dbt-core==1.6.1)
+  Obtaining dependency information for pydantic~=1.10 from https://files.pythonhosted.org/packages/8e/78/20ff81dedf6107c1e613dac3d60b1f6bc81e728b0a41040b7c9d6f89bf7e/pydantic-1.10.17-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading pydantic-1.10.17-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (151 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 151.6/151.6 kB 84.2 kB/s eta 0:00:00
+Requirement already satisfied: python-dateutil~=2.0 in /home/strang/anaconda3/lib/python3.11/site-packages (from dbt-semantic-interfaces~=0.2.0->dbt-core==1.6.1) (2.8.2)
+Requirement already satisfied: six in /home/strang/anaconda3/lib/python3.11/site-packages (from isodate<0.7,>=0.6->dbt-core==1.6.1) (1.16.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/strang/anaconda3/lib/python3.11/site-packages (from Jinja2~=3.1.2->dbt-core==1.6.1) (2.1.1)
+Requirement already satisfied: msgpack>=0.5.6 in /home/strang/anaconda3/lib/python3.11/site-packages (from mashumaro[msgpack]~=3.8.1->dbt-core==1.6.1) (1.0.3)
+Requirement already satisfied: zipp>=0.5 in /home/strang/anaconda3/lib/python3.11/site-packages (from importlib-metadata~=6.0->dbt-semantic-interfaces~=0.2.0->dbt-core==1.6.1) (3.11.0)
+Requirement already satisfied: attrs>=17.4.0 in /home/strang/anaconda3/lib/python3.11/site-packages (from jsonschema~=4.0->dbt-semantic-interfaces~=0.2.0->dbt-core==1.6.1) (22.1.0)
+Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in /home/strang/anaconda3/lib/python3.11/site-packages (from jsonschema~=4.0->dbt-semantic-interfaces~=0.2.0->dbt-core==1.6.1) (0.18.0)
+Requirement already satisfied: text-unidecode>=1.3 in /home/strang/anaconda3/lib/python3.11/site-packages (from python-slugify>=1.2.1->agate~=1.7.0->dbt-core==1.6.1) (1.3)
+Downloading dbt_core-1.6.1-py3-none-any.whl (992 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 992.6/992.6 kB 2.1 MB/s eta 0:00:00
+Downloading dbt_duckdb-1.6.0-py3-none-any.whl (50 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.2/50.2 kB 457.6 kB/s eta 0:00:00
+Downloading duckdb-0.9.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.5/16.5 MB 2.2 MB/s eta 0:00:00
+Downloading agate-1.7.1-py2.py3-none-any.whl (97 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.1/97.1 kB 2.1 MB/s eta 0:00:00
+Downloading dbt_extractor-0.4.1-cp36-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 2.3 MB/s eta 0:00:00
+Downloading dbt_semantic_interfaces-0.2.3-py3-none-any.whl (104 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 104.3/104.3 kB 1.9 MB/s eta 0:00:00
+Downloading hologram-0.0.16-py3-none-any.whl (11 kB)
+Downloading isodate-0.6.1-py2.py3-none-any.whl (41 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.7/41.7 kB 1.6 MB/s eta 0:00:00
+Downloading protobuf-5.27.3-cp38-abi3-manylinux2014_x86_64.whl (309 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 309.3/309.3 kB 2.2 MB/s eta 0:00:00
+Downloading sqlparse-0.4.4-py3-none-any.whl (41 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 41.2/41.2 kB 1.6 MB/s eta 0:00:00
+Downloading leather-0.4.0-py2.py3-none-any.whl (30 kB)
+Downloading parsedatetime-2.6-py3-none-any.whl (42 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.5/42.5 kB 1.8 MB/s eta 0:00:00
+Downloading pydantic-1.10.17-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 2.2 MB/s eta 0:00:00
+Downloading pytimeparse-1.1.8-py2.py3-none-any.whl (10.0 kB)
+Downloading mashumaro-3.8.1-py3-none-any.whl (74 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.6/74.6 kB 1.6 MB/s eta 0:00:00
+Building wheels for collected packages: logbook, minimal-snowplow-tracker
+  Building wheel for logbook (setup.py): started
+  Building wheel for logbook (setup.py): finished with status 'done'
+  Created wheel for logbook: filename=Logbook-1.5.3-cp311-cp311-linux_x86_64.whl size=65610 sha256=4925a2407b3673329be82d9adf60fb6df606a03f3fdd2f44484fff7a3c2a6623
+  Stored in directory: /home/strang/.cache/pip/wheels/41/be/29/54b3065e766f93fd507f7e625311a8deba2842a5f1b060ede4
+  Building wheel for minimal-snowplow-tracker (setup.py): started
+  Building wheel for minimal-snowplow-tracker (setup.py): finished with status 'done'
+  Created wheel for minimal-snowplow-tracker: filename=minimal_snowplow_tracker-0.0.2-py3-none-any.whl size=17801 sha256=24796b2f8e0651e0d2e8dc9879985887464cef6ff6ec17ae7b61386d195851ff
+  Stored in directory: /home/strang/.cache/pip/wheels/a0/74/73/6bbb925fbe51194cc6436f6efb07f87b31e400a406dd6250f9
+Successfully built logbook minimal-snowplow-tracker
+Installing collected packages: pytimeparse, parsedatetime, logbook, leather, sqlparse, pydantic, protobuf, mashumaro, isodate, duckdb, dbt-extractor, minimal-snowplow-tracker, hologram, dbt-semantic-interfaces, agate, dbt-core, dbt-duckdb
+Successfully installed agate-1.7.1 dbt-core-1.6.1 dbt-duckdb-1.6.0 dbt-extractor-0.4.1 dbt-semantic-interfaces-0.2.3 duckdb-0.9.0 hologram-0.0.16 isodate-0.6.1 leather-0.4.0 logbook-1.5.3 mashumaro-3.8.1 minimal-snowplow-tracker-0.0.2 parsedatetime-2.6 protobuf-5.27.3 pydantic-1.10.17 pytimeparse-1.1.8 sqlparse-0.4.4
